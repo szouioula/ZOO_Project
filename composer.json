@@ -1,0 +1,9 @@
+{
+    "name": "admin/tp_zoo",
+    "autoload": {
+        "psr-4": {
+            "Admin\\TpZoo\\": "src/"
+        }
+    },
+    "require": {}
+}
