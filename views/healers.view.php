@@ -2,10 +2,10 @@
 ob_start(); 
 ?>
 
-Ici la page d'accueil
+Listes des soignants
 
 <?php
 $content = ob_get_clean();
-$titre = "ZOO";
+$titre = "Soignants";
 require "template.php";
 ?>

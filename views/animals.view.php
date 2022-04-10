@@ -2,10 +2,10 @@
 ob_start(); 
 ?>
 
-Ici la page d'accueil
+Présentation des animaux du zoo
 
 <?php
 $content = ob_get_clean();
-$titre = "ZOO";
+$titre = "Animaux";
 require "template.php";
 ?>
