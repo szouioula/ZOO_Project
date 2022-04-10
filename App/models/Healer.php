@@ -1,6 +1,10 @@
 <?php
 
-Class Healer {
+class Healer {
+
+use Parametres;
+use Animal_trait;
+
     private $id;
     private $first_name;
     private $last_name;

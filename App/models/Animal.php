@@ -1,8 +1,9 @@
 <?php
 
-Abstract class Animal{
+class Animal{
 
 use Parametres;
+use Animal_trait;
 
     private $id;
     private $name;
@@ -20,6 +21,10 @@ use Parametres;
 
 
     public function __construct(){}
+
+
+    private $animals;//tableau d'animaux
+
 
     
 }
