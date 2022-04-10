@@ -2,7 +2,7 @@
 require_once "Model.Class.php";
 require_once "Animal.php";
 
-class AnimalGestion extends Model{
+final Class AnimalGestion extends Model{
     private $animals;//tableau de animal
 
     public function ajoutAnimal($animal){
