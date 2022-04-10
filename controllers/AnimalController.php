@@ -16,7 +16,7 @@ class AnimalController extends Controller{
 
     public function afficherAnimal($id){
         $animal = $this->animalGestion->getAnimalById($id);
-        require "views/afficheranimal.view.php";
+        require "views/afficherAnimal.view.php";
     }
 
     public function addAnimal(){
@@ -50,7 +50,7 @@ class AnimalController extends Controller{
 
     public function modificationAnimal($id){
         $animal = $this->animalGestion->getAnimalById($id);
-        require "views/modifieranimal.view.php";
+        require "views/modifierAnimal.view.php";
     }
 
     public function modificationAnimalValidation(){
