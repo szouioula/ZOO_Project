@@ -14,4 +14,6 @@ abstract class Model{
         }
         return self::$pdo;
     }
+
+    abstract protected function index();
 }

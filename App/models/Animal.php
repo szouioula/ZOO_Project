@@ -21,10 +21,5 @@ use Animal_trait;
 
 
     public function __construct(){}
-
-
-    private $animals;//tableau d'animaux
-
-
     
 }
